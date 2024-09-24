@@ -1,0 +1,24 @@
+name: mvpgs
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.6
+  - plyfile
+  - python=3.8.1
+  - pip=22.3.1
+  - pytorch=1.12.1
+  - torchaudio=0.12.1
+  - torchvision=0.13.1
+  - tqdm
+  - pip:
+    - opencv-python
+    - timm==0.9.12
+    - matplotlib
+    - omegaconf
+    - simple-lama-inpainting==0.1.0
+    - scikit-image
+    - lpips==0.1.4
+    - submodules/diff-gaussian-rasterization
+    - submodules/simple-knn
