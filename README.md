@@ -1,4 +1,6 @@
-# MVPGS
+# MVPGS: Excavating Multi-view Priors for Gaussian Splatting from Sparse Input Views
+
+---------------------------------------------------
 MVPGS is a few-shot novel view synthesis method based on 3D Gaussian Splatting. Details are described in our paper:
 > MVPGS: Excavating Multi-view Priors for Gaussian Splatting from Sparse Input Views
 >
@@ -108,3 +110,6 @@ If you find our work useful in your research please consider citing our paper:
 ## 👩‍ Acknowledgements
 
 Our code is heavily base on [3D Gaussian Splatting](), and we use the rasterization in [DreamGaussian](https://github.com/ashawkey/diff-gaussian-rasterization). We refer to [Pose-Warping](https://github.com/NagabhushanSN95/Pose-Warping) for the forward warping implementation, and we use [MVSFormer](https://github.com/ewrfcas/MVSFormer) for the prediction of MVS depth. We thank the excellent code they provide.
+
+---------------------------------------------------
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzezeaaa%2FMVPGS&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
