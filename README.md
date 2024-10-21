@@ -14,6 +14,9 @@ MVPGS is a few-shot novel view synthesis method based on 3D Gaussian Splatting. 
 
 📍 If there are any bugs in our code, please feel free to raise your issues.
 
+> ⭐️ **Update:**
+- [2024/10/21] Results, including optimized models and rendered images, are now available at [this link](https://1drv.ms/f/s!AuJCYMVLdyRpisE3RD7XJF_X906qTg?e=eYOXva).
+
 ## ⚙ Setup
 #### 1. Recommended environment
 ```
@@ -95,6 +98,8 @@ Training and evaluation on T&T:
 bash scripts/exps_tanks.sh
 ```
 
+## 📝 Results
+Results (including optimized models and rendered images) of the current version can be downloaded from [this link](https://1drv.ms/f/s!AuJCYMVLdyRpisE3RD7XJF_X906qTg?e=eYOXva).
 
 ## ⚖ Citation
 If you find our work useful in your research please consider citing our paper:
