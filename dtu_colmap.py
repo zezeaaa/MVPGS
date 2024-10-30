@@ -37,7 +37,7 @@ def main():
 
     # convert images
     print('Begin converting ', args.out_dir)
-    os.system('python convert.py -s ' + args.out_dir + ' --resize --camera PINHOLE')
+    os.system('python convert.py -s ' + args.out_dir + ' --camera PINHOLE')
     print('Finished converting ', args.out_dir)
 
     shutil.rmtree(os.path.join(args.out_dir, 'input'))
